@@ -56,6 +56,7 @@ iframe{
 
 .work{
     font-size: 7vw;
+    cursor: pointer;
     text-transform: uppercase;
     color:#ccd5c2;
     margin-right: 80px;
