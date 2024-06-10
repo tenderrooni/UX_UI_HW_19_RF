@@ -1,0 +1,473 @@
+
+
+body{
+    margin: 0;
+    font-family: 'League Spartan', sans-serif;
+    background-color: #2A2A34;
+    color: #ccd5c2;
+}
+
+.header .nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: #505057;
+    height: 100px;
+    position: relative;
+}
+
+
+iframe{
+    margin-top: 10px;
+    margin-left: 0px;
+    border-radius: 12px;
+    margin-right: 20px;
+}
+
+
+.inline-block{
+    margin-right: 20px;
+}
+
+.inline-block .player{
+    display: flex;
+    margin-left: 20px;
+}
+
+.inline-block.logo{
+    margin-right: 30px;
+    width: auto;
+    padding: 5px;
+}
+
+.inline-block.menu{
+    position: absolute;
+    flex: 1;
+    top: 5px;
+    right: 5px;
+}
+
+.logo img{
+    margin-left: 20px;
+    width: 100px;
+    height: auto;
+}
+
+.work{
+    font-size: 7vw;
+    text-transform: uppercase;
+    color:#ccd5c2;
+    margin-right: 80px;
+    align-self: flex-end;
+    position: absolute;
+    right: 70px;
+}
+
+.work p{
+    margin: 0;
+}
+
+.menu button {
+    background-color: #505057;
+    cursor: pointer;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.menu button img{
+    background-color: #505057;
+    width: 60px !important;
+    height: auto !important;
+}
+
+iframe{
+    margin-top: 10px;
+    margin-left: 0px;
+    border-radius: 12px;
+    margin-right: 20px;
+}
+
+.heroImg{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 50px 20px;
+}
+
+.heroImg img{
+    position: absolute;
+    top: 150px;
+    right: 20px;
+    width: 15%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.heroImg h1{
+    font-size: 6vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    display:flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+.heroImg h1:nth-of-type(2){
+    margin-left: 60px;
+}
+
+.heroImg h2{
+    font-size: 4vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    display:flex;
+    justify-content: flex-start;
+    margin-left: 200px;
+    margin-top: 0px;
+}
+
+.heroImg p{
+    font-size: 3vw;
+    font-weight: thin;
+    line-height: 35px;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 20px;
+    margin-top: -30px;
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    top: 50%;
+    left: 0%;
+    transform: translate(0, -50%);
+}
+
+.button-wrapper img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+}
+
+
+.fun-facts-button {
+    background-color: #E0D5D5;
+    border: none;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.curved-text {
+    font-size: 15px;
+}
+
+.smiley{
+    width: 50px;
+    height: 50px;
+}
+
+
+.skills {
+    margin-top: 0vw;
+}
+
+.skills h2 {
+    font-size: 4vw;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+.skills-row {
+    display: flex;
+    justify-content: space-around;
+    gap: 10vw;
+}
+
+.skills-row > div{
+    flex: 1;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.skills-top{
+    display: flexbox;
+    justify-content: flex-start;
+}
+
+.skills-row h3 {
+    font-size: 3vw;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 15%;
+}
+
+.skill-list {
+    list-style: none;
+    display: flexbox;
+    justify-content: flex-start;
+    font-size: 2vw;
+    margin-top: 0;
+}
+
+
+.portfolio-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.case-study {
+    position: relative;
+    height: 450px;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.case-study .overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+    width: 40%;
+    top: 20%;
+    left: 5%;
+}
+
+.case-study h2 {
+    margin: 0 0 10px;
+    font-size: 30px; 
+    background: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.case-study p {
+    margin: 20px 0 20px;
+    background: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    text-decoration: none;
+    font-size: 1.8vw;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #D4A5A5;
+    font-weight: bold;
+}
+
+#watchmore {
+    background-image: url('images/watchmore.png');
+}
+
+#usda-redesign {
+    background-image: url('images/usda.png');
+}
+
+#the-shed {
+    background-image: url('images/shed.png');
+}
+
+#sjicc-redesign {
+    background-image: url('images/sijcc.png');
+}
+
+#usda-redesign .overlay,
+#sjicc-redesign .overlay {
+    right: 0px;
+    transform: translatex(100%);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2A2A34;
+    color: #ccd5c2;
+    padding: 20px;
+    position: relative;
+}
+
+.footer-content {
+    display: flex;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 3vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.footer h1 {
+    font-size: 4vw;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+}
+
+.contact-form .input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-size: 2 vw;
+    
+}
+
+.contact-form label {
+    font-size: 2 vw;
+}
+
+.contact-form input[type="text"],
+.contact-form textarea {
+    background-color: #2A2A34;
+    border: .12vw solid #F0EDEE;
+    color: #CCD5C2;
+    font-size: 2vw;
+    padding: 1vw;
+    box-sizing: border-box;
+    width: 100%;
+    grid-column: span 3;
+}
+
+.contact-form input[type="text"] {
+    grid-column: span 1;
+}
+
+.contact-form textarea {
+    grid-column: span 4;
+    grid-row: span 2;
+    width: 210%;
+}
+
+.contact-form input[type="submit"] {
+    font-size: 1.5vw;
+    background-color: #b4b4e3;
+    border: .1vw solid #F0EDEE;
+    color: #364328;
+    padding: 10px 20px;
+    cursor: pointer;
+    grid-column: span 3;
+    text-transform: uppercase;
+    justify-self: center;
+}
+
+.foot-img {
+    width: 300px;
+    height: auto;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.wink-img {
+    width: 200px;
+    height: auto;
+    align-self: flex-start;
+    margin-right: 20px;
+    transform: rotate(20deg);
+}
+
+.footer-socials {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.footer-socials p {
+    margin: 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: auto;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+        margin-top: -60px;
+    }
+
+    .contact-form {
+        grid-template-columns: 1fr;
+    }
+
+    .foot-img {
+        position: absolute;
+        left: 0;
+        top: -170px;
+        transform: none;
+        margin-bottom: 20px;
+        opacity: 0.3;
+    }
+
+    .logo img{
+        margin-left: 0px;
+        
+    }
+
+   
+
+    .inline-block.player{
+        display: none;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        
+    }
+
+ 
+}
+    
