@@ -131,8 +131,10 @@ iframe{
 }
 
 .heroImg p{
+
     font-size: 1.5rem;
     font-weight: normal;
+    font-size: 3vw;
     justify-content: center;
     margin-left: 2rem;
     margin-right: 2rem;
