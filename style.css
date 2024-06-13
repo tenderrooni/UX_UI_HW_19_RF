@@ -131,12 +131,13 @@ iframe{
 }
 
 .heroImg p{
-    font-size: 3vw;
-    font-weight: thin;
+    font-size: 1.5rem;
+    font-weight: normal;
     justify-content: center;
-    margin-left: 10%;
-    margin-right: 20px;
-    margin-top: -30px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: -1rem;
+    line-height: 1.5;
 }
 
 .button-wrapper {
