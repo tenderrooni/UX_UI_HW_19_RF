@@ -70,6 +70,10 @@ iframe{
     margin: 0;
 }
 
+.work:hover {
+    font-weight: bold;
+}
+
 .menu button {
     background-color: #505057;
     cursor: pointer;
@@ -246,6 +250,7 @@ iframe{
     text-align: center;
     background-size: cover;
     background-position: center;
+    padding-bottom: 3rem;
 }
 
 .case-study .overlay {
@@ -268,11 +273,13 @@ iframe{
 }
 
 .case-study p {
-    margin: 20px 0 20px;
+    font-size: 1.5rem;
+    margin: 1 rem 0;
     background: rgba(0, 0, 0, 0.5);
     display: inline-block;
-    padding: 10px 20px;
+    padding: 1rem 1.5rem;
     border-radius: 8px;
+    overflow-wrap: break-word;
 }
 
 .button {
@@ -470,6 +477,17 @@ iframe{
         align-items: flex-start;
 
         
+    }
+
+    .case-study p {
+        font-size: 1rem;
+        margin: 0.5rem 0;
+        padding: 0.5rem 1rem;
+
+    }
+
+    .case-study{
+        padding-bottom: 2rem;
     }
 
  
