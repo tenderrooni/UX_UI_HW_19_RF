@@ -193,7 +193,6 @@ iframe{
 .skills {
     margin-top: 0vw;
 }
-
 .skills h2 {
     font-size: 4vw;
     font-weight: bold;
@@ -203,20 +202,16 @@ iframe{
     justify-content: center;
     margin-top: -20px;
 }
-
+.skills-row header {
+    width: 100%
+}
 .skills-row {
     display: flex;
-    justify-content: space-between;
-    gap: 2vw;
+    text-align: center;
 }
 .skills-row-list {
     display: flex;
-    justify-content: space-between;
-    padding: 0% 6% /* Adjust this value based on your preference */
-}
-.skills-row > div {
-    flex: 1;
-    text-align: center;
+    justify-content: center;
 }
 .skills-top {
     display: flex;
@@ -227,6 +222,7 @@ iframe{
     margin: 0 0 1vw 0;
 }
 .skill-list {
+    width: 100%;
     list-style: none;
     padding: 0;
     display: flex;
