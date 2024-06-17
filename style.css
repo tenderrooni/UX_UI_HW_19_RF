@@ -135,12 +135,11 @@ iframe{
 }
 
 .heroImg p{
-
     font-size: 1.5rem;
     font-weight: normal;
     font-size: 3vw;
     justify-content: center;
-    margin-left: 2rem;
+    margin-left: 3rem;
     margin-right: 2rem;
     margin-top: -1rem;
     line-height: 1.5;
@@ -207,36 +206,34 @@ iframe{
 
 .skills-row {
     display: flex;
-    justify-content: space-around;
-    gap: 10vw;
+    justify-content: space-between;
+    gap: 2vw;
 }
-
-.skills-row > div{
+.skills-row-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 6% /* Adjust this value based on your preference */
+}
+.skills-row > div {
     flex: 1;
-    justify-content: space-around;
     text-align: center;
 }
-
-.skills-top{
-    display: flexbox;
-    justify-content: flex-start;
-}
-
-.skills-row h3 {
-    font-size: 3vw;
+.skills-top {
     display: flex;
     justify-content: flex-start;
-    margin-left: 15%;
 }
-
+.skills-row h3 {
+    font-size: 3vw;
+    margin: 0 0 1vw 0;
+}
 .skill-list {
     list-style: none;
-    display: flexbox;
-    justify-content: flex-start;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-size: 2vw;
-    margin-top: 0;
 }
-
 
 .portfolio-section {
     display: flex;
